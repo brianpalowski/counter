@@ -1,0 +1,84 @@
+
+.container{
+  margin:20px;
+  height:100vh;
+  width: 100vw;
+}
+.inputBox{
+  height:50px;
+}
+
+.input-Submit-Count{
+  margin-left: 10px;
+  height:55px;
+  width:90px;
+  background-color: limegreen;
+  color: white;
+  font-size: 1em;
+}
+.input-Conatiner{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+.outer-Pause-Container{
+text-align: center;
+}
+
+.pause-Button{
+  margin-top: 100px;
+  margin-left: 30px;
+  height: 40px;
+
+
+}
+.counter-Pause-Refresh{
+  display: flex;
+
+  justify-content: center;
+  text-align: center;
+ 
+}
+.speed-Container{
+  padding-top: 100px;
+}
+.speed-item button{
+  width:10vw;
+  height: 10vh;
+  margin: 5px;
+}
+.speed-item {
+  display: flex;
+  justify-content: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+h1{
+  font-size: 100px;
+}
+
+.h1-Counter{
+  color:red;
+}
+
+#blink-Count{
+  animation: blinkingText  2s infinite
+}
+
+@keyframes blinkingText {
+  0%{     color: red;    }
+  49%{    color:red; }
+  60%{    color: transparent; }
+  99%{    color:transparent;  }
+  100%{   color: red;    }
+}
